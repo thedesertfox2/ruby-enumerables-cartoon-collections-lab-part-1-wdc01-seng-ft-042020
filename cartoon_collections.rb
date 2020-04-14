@@ -12,10 +12,10 @@ def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
-  newarray = []
+  hash = Hash.new
   %w(Dopey).each.with_index(1) { |item, index| 
-    newarray(item) = index
-  
+    hash(item) = index
+  }
   
   
 end
