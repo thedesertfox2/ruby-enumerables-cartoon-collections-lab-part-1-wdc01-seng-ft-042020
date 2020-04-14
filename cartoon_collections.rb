@@ -14,6 +14,6 @@ def list_dwarves(array)
   # Print a numbered list of each element
   %w(array).each.with_index(1) { |item, index| puts "#{index} - #{item}" }
   end
-  array
+  
   
 end
