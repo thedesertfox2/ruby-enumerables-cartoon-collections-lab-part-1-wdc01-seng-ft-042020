@@ -13,7 +13,7 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
   hash = Hash.new
-  %w(Dopey).each.with_index(1) { |item, index| 
+  %w(array).each.with_index(1) { |item, index| 
     hash(item) = index
   }
   
