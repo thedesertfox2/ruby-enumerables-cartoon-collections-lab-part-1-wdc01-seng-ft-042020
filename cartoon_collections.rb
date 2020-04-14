@@ -13,8 +13,8 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
   newarray = []
-  %w(Dopey).each.with_index(1) { |item, index| puts "#{index}.*#{item}" 
-    
+  %w(Dopey).each.with_index(1) { |item, index| 
+    newarray(item) = index
   
   
   
