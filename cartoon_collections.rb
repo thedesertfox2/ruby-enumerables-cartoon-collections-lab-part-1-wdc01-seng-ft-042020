@@ -16,7 +16,6 @@ def list_dwarves(array)
   array.each_with_index |value index| do
     index1 = index + 1
     result = "#{index1} #{value}"
-  
   end
   result
   
